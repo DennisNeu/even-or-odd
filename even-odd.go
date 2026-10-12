@@ -20,9 +20,9 @@ func main() {
 	}
 
 	if input%2 == 0 {
-		fmt.Println("Your number is even.")
+		fmt.Println("The number", input, "is even.")
 	} else {
-		fmt.Println("Your number is odd.")
+		fmt.Println("The number", input, "is odd.")
 	}
 
 }
